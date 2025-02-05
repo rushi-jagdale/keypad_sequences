@@ -1,10 +1,10 @@
 ## How It Works
 
 The solution is implemented in Python and consists of the following components:
-1. **Keypad Layout**: The keypad is represented as a dictionary where each key maps to its coordinates `(row, column)`.
+1. **Keypad Layout**: The keypad is represented as a dictionary, where each key is mapped to its position (row, column).
 2. **Knight's Move Validation**: A function checks if a move from one key to another is a valid knight's move.
 3. **Recursive Solver**: A recursive function counts all valid sequences, using memoization to optimize performance.
-4. **Main Function**: The main function iterates over all starting keys, initializes the vowel count, and calls the recursive solver to compute the total number of valid sequences.
+4. **Main Function**: The main function starts the process, iterates over all possible starting keys, and calculates the total number of valid sequences.
 
 
 # How to Run
