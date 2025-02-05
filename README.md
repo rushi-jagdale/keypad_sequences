@@ -14,7 +14,7 @@ The solution is implemented in Python and consists of the following components:
 
 ### Steps
 1. Clone the repository:
-   ```bash
+
    git clone https://github.com/rushi-jagdale/keypad_sequences.git
    cd keypad_sequences
 
