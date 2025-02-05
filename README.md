@@ -16,6 +16,7 @@ The solution is implemented in Python and consists of the following components:
 1. Clone the repository:
 
    git clone https://github.com/rushi-jagdale/keypad_sequences.git
+   
    cd keypad_sequences
 
    python run_solver.py
