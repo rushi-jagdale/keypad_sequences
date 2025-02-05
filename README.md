@@ -1,15 +1,3 @@
-## Problem Statement
-
-You are given a 4x5 keypad with specific letter and number assignments. The goal is to find the total number of unique 10-key sequences that adhere to the following rules:
-1. **Starting Point**: The sequence can begin with any key on the keypad.
-2. **Knight's Move**: Each subsequent key press must be a valid knight's move from the previous key. A knight's move is defined as:
-   - One step vertically and two steps horizontally, **or**
-   - One step horizontally and two steps vertically.
-3. **Repetition Allowed**: A key can be used multiple times within a sequence.
-4. **Vowel Limit**: Each sequence can contain a maximum of two vowels (`A`, `E`, `I`, `O`).
-
----
-
 ## How It Works
 
 The solution is implemented in Python and consists of the following components:
